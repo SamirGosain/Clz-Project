@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Event Hub</h2>
+
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="contact.html"><i class="fas fa-phone"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+
+        <h1>Contact Us</h1>
+
+        <form onsubmit="return validateForm()">
+
+            <input type="text" id="name" placeholder="Enter Your Name">
+
+            <input type="email" id="email" placeholder="Enter Your Email">
+
+            <textarea id="message" placeholder="Enter Your Message"></textarea>
+
+            <button type="submit">Send</button>
+
+        </form>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
